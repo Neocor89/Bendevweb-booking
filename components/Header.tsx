@@ -113,6 +113,19 @@ function Header() {
                       </div>
                   ))}
                 </div>
+
+                <div className="grid grid-cols-2 divide-x divide-gray-900/5 bg-gray-50">
+                  {actionsCall.map((action) => (
+                    <a
+                      key={action.name} 
+                      href={action.href} className="block font-semibold text-[#003b95]">
+                      <action.icon 
+                            className="h-6 w-6 text-[#003b95] group-hover:text-[#006CE4]" 
+                            aria-hidden="true" 
+                          />
+                  </a>
+                  ))}
+                </div>
               </Popover.Panel>
             </Transition>
           </Popover>
