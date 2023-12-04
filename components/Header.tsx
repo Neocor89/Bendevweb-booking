@@ -16,6 +16,7 @@ import { Fragment, useState } from 'react';
 //: COMPONENTS IMPORTS
 import Logo from './Logo';
 import { LogIn } from 'lucide-react';
+import { cn } from '@/lib/utils';
 
 const linksProducts = [
   {
@@ -89,7 +90,7 @@ function Header() {
               leaveFrom='opacity-100 translate-y-0'
               leaveTo='opacity-0 translate-y-1'
             >
-              <Popover.Panel className="absolute bg-white -left-8 top-full z-10 mt-3 w-screen max-w-md overflow-hidden rounded-3xl shadow-xl ring-1 ring-gray-900/5">
+              <Popover.Panel className="absolute bg-white -left-8 top-full z-10 mt-3 w-screen max-w-md overflow-hidden rounded-3xl shadow-xl ring-1 ring-[#a3d7fc]">
                 <div className="p-4">
                   {linksProducts.map((product) => (
                     <div
@@ -164,7 +165,7 @@ function Header() {
         <div className="fixed inset-0 z-10" />
 
         <Dialog.Panel
-          className="fixed inset-y-0 right-0 z-10 w-full h-auto max-h-[600px] overflow-y-auto bg-[#003b95] px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10"
+          className="fixed inset-y-0 right-0 z-10 w-full h-auto max-h-[800px] overflow-y-auto bg-[#003b95] px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10"
         >
           <div className="flex items-center justify-between">
             <a 
@@ -186,6 +187,76 @@ function Header() {
                 aria-hidden="true"
               />
             </button>
+          </div>
+
+          <div className="mt-6 flow-root">
+            <div className="-m-y-6 divide-y divide-gray-500/10">
+              <div className="space-y-2 py-6">
+                <Disclosure
+                  as="div"
+                  className="-mx-3"
+                >
+                  {({ open }) => (
+                    <>
+                    <Disclosure.Button
+                      className="flex w-full items-center justify-between rounded-lg py-2 pl-3 pr-3.5 text-base font-semibold leading-7 text-white hover:bg-[#003b95]">
+                        Stays
+                        <ChevronDownIcon 
+                          className={cn(
+                            open ? "rotate-180 duration-200" : "",
+                            "h-5 w-5 flex-none"
+                          )}
+                          aria-hidden="true"
+                        />
+                    </Disclosure.Button>
+                    <Disclosure.Panel className="mt-2 space-y-2">
+                      {[...linksProducts, ...actionsCall].map((item) => (
+                        <Disclosure.Button
+                          key={item.name}
+                          as='a'
+                          href={item.href}
+                          className="block rounded-lg py-2 pl-6 pr-3 text-sm font-semibold leading-7 text-white hover:bg-[#003b95]"
+                        >
+                          {item.name}
+                        </Disclosure.Button>
+                      ))}
+                    </Disclosure.Panel>
+                    </>
+                  )}
+                </Disclosure>
+
+                  <a 
+                    href="#" 
+                    className="-m-x-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-white hover:bg-[#003b95]">
+                    Flights
+                  </a>
+                  <a 
+                    href="#" 
+                    className="-m-x-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-white hover:bg-[#003b95]">
+                    Car Rentals
+                  </a>
+                  <a 
+                    href="#" 
+                    className="-m-x-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-white hover:bg-[#003b95]">
+                    Attractions
+                  </a>
+                  <a 
+                    href="#" 
+                    className="-m-x-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-white hover:bg-[#003b95]">
+                    Flight & Hotel
+                  </a>
+              </div>
+
+              <div className="py-6">
+                <a 
+                  href="#"
+                  className="-m-x-3 flex rounded-lg px-3 py-2 text-base font-semibold leading-7 text-white hover:bg-[#003b95]"
+                >
+                  Log In
+                  <LogIn className="pt-1.5"/>
+                </a>
+              </div>
+            </div>
           </div>
         </Dialog.Panel>
       </Dialog>
