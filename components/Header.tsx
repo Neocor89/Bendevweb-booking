@@ -92,7 +92,7 @@ function Header() {
                 <div className="p-4">
                   {linksProducts.map((product) => (
                     <div
-                    key={product.name} 
+                      key={product.name} 
                       className="group relative flex items-center gap-x-6 rounded-lg p-4 text-sm leading-6 hover:bg-gray-50">
                         <div className="flex h-11 w-11 flex-none items-center justify-center rounded-lg bg-gray-50 group-hover:bg-gray-200">
                           <product.icon 
@@ -102,7 +102,8 @@ function Header() {
                         </div>
 
                         <div className="flex-auto">
-                          <a href={product.href} className="block font-semibold text-[#003b95]">
+                          <a 
+                            href={product.href} className="block font-semibold text-[#003b95]">
                             {product.name}
                             <span className="inset-0 absolute"/>
                           </a>
@@ -118,11 +119,13 @@ function Header() {
                   {actionsCall.map((action) => (
                     <a
                       key={action.name} 
-                      href={action.href} className="block font-semibold text-[#003b95]">
+                      href={action.href} 
+                      className="flex items-center justify-center gap-x-2.5 p-3 text-sm font-semibold leading-6 text-[#003b95] hover:bg-gray-100">
                       <action.icon 
-                            className="h-6 w-6 text-[#003b95] group-hover:text-[#006CE4]" 
+                            className="h-5 w-5 flex-none text-[#003b95]" 
                             aria-hidden="true" 
-                          />
+                      />
+                      {action.name}
                   </a>
                   ))}
                 </div>
