@@ -1,7 +1,7 @@
 "use client";
 
 import { Dialog, Popover, Transition, Disclosure } from '@headlessui/react';
-import { Bars3Icon } from '@heroicons/react/20/solid';
+import { Bars3Icon, XMarkIcon } from '@heroicons/react/20/solid';
 import { 
   ChevronDownIcon, 
   ChatBubbleLeftIcon, 
@@ -149,11 +149,46 @@ function Header() {
           <a href="#" className="flex text-sm font-semibold leading-6 text-white">
             Log In
             <span aria-hidden="true">
-              <LogIn className='ml-2' />
+              <LogIn className='h-6 w-6 ml-2' />
             </span>
           </a>
         </div>
       </nav>
+
+      <Dialog
+        as='div'
+        className="lg:hidden"
+        open={mobileOpenMenu}
+        onClose={setMobileOpenMenu}
+      >
+        <div className="fixed inset-0 z-10" />
+
+        <Dialog.Panel
+          className="fixed inset-y-0 right-0 z-10 w-full h-auto max-h-[600px] overflow-y-auto bg-[#003b95] px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10"
+        >
+          <div className="flex items-center justify-between">
+            <a 
+              href="#"
+              className='-m-1.5 p-1.5'
+            >
+              <Logo />
+              <span className="sr-only">
+              </span>
+            </a>
+            <button 
+              type="button"
+              className='-m-2.5 rounded-md p-2.5 text-white'
+              onClick={() => setMobileOpenMenu(false)}
+            >
+              <span className="sr-only">Close menu</span>
+              <XMarkIcon 
+                className="h-6 w-6"
+                aria-hidden="true"
+              />
+            </button>
+          </div>
+        </Dialog.Panel>
+      </Dialog>
     </header>
   )
 }
