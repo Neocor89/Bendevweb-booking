@@ -62,7 +62,7 @@ function Header() {
         <div className="flex lg:hidden">
           <button
             type="button" 
-            className="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-white outline-none"
+            className="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-white"
             onClick={() => setMobileOpenMenu(true)}
           >
             <span className="sr-only">Open menu</span>
@@ -72,7 +72,7 @@ function Header() {
 
         <Popover.Group className="hidden lg:flex lg:gap-x-12">
           <Popover className="relative">
-            <Popover.Button className="flex items-center gap-x-1 text-sm font-semibold leading-6 text-white">
+            <Popover.Button className="outline-none border-none flex items-center gap-x-1 text-sm font-semibold leading-6 text-white">
               Search Stays
               <ChevronDownIcon 
                 className='h-5 w-5 flex-none text-white' aria-hidden="true"
@@ -132,6 +132,16 @@ function Header() {
               </Popover.Panel>
             </Transition>
           </Popover>
+
+          <a href="#" className="text-sm font-semibold leading-6 text-white">
+            Flights
+          </a>
+          <a href="#" className="text-sm font-semibold leading-6 text-white">
+            Car Rentals
+          </a>
+          <a href="#" className="text-sm font-semibold leading-6 text-white">
+            Flight & Hotel
+          </a>
         </Popover.Group>
       </nav>
     </header>
