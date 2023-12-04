@@ -15,6 +15,7 @@ import { Fragment, useState } from 'react';
 
 //: COMPONENTS IMPORTS
 import Logo from './Logo';
+import { LogIn } from 'lucide-react';
 
 const linksProducts = [
   {
@@ -143,6 +144,15 @@ function Header() {
             Flight & Hotel
           </a>
         </Popover.Group>
+
+        <div className="hidden lg:flex lg:flex-1 lg:justify-end">
+          <a href="#" className="flex text-sm font-semibold leading-6 text-white">
+            Log In
+            <span aria-hidden="true">
+              <LogIn className='ml-2' />
+            </span>
+          </a>
+        </div>
       </nav>
     </header>
   )
