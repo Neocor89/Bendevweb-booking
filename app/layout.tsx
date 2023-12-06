@@ -15,6 +15,8 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+      <meta name="viewport" content="initial-scale=1, width=device-width" />
+      <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;700&display=swap" rel="stylesheet"></link>
       <body>
         <Header />
         {children}
