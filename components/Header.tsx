@@ -13,6 +13,10 @@ import {
 import Link from 'next/link';
 import { Fragment, useState } from 'react';
 
+/*width: calc(100% - 200px - 16px);
+color: #f0f6ff;
+*/
+
 //: COMPONENTS IMPORTS
 import Logo from './Logo';
 import { LogIn } from 'lucide-react';
@@ -135,19 +139,19 @@ function Header() {
             </Transition>
           </Popover>
 
-          <a href="#" className="text-sm font-['Rubik'] font-normal leading-6 text-white">
+          <a href="#" className="text-sm font-rubik font-normal leading-6 text-white">
             Flights
           </a>
-          <a href="#" className="text-sm font-['Rubik'] font-normal leading-6 text-white">
+          <a href="#" className="text-sm font-rubik font-normal leading-6 text-white">
             Car Rentals
           </a>
-          <a href="#" className="text-sm font-['Rubik'] font-normal leading-6 text-white">
+          <a href="#" className="text-sm font-rubik font-normal leading-6 text-white">
             Flight & Hotel
           </a>
         </Popover.Group>
 
         <div className="hidden lg:flex lg:flex-1 lg:justify-end">
-          <a href="#" className="flex text-sm font-['Rubik'] font-normal leading-6 text-white">
+          <a href="#" className="flex text-sm font-rubik font-normal leading-6 text-white">
             Log In
             <span aria-hidden="true">
               <LogIn className='h-5 w-5 ml-2 pt-1' />
