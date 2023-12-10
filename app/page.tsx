@@ -1,6 +1,5 @@
+import SearchForm from '@/components/SearchForm';
 import { destinations_data } from '@/data/trending';
-
-import Image from 'next/image'
 
 export default function Home() {
   return (
@@ -9,16 +8,16 @@ export default function Home() {
         <h2 className="font-bold text-4xl md:text-5xl text-white">
           Discover your next Stay
         </h2>
-        <h3 className="text-white py-5 text-left font-['Rubik']">Search the Best low prices for your next Stay...</h3>
+        <h3 className="text-white py-5 text-left font-rubik">Search the Best low prices for your next Stay...</h3>
       </section>
 
       <section className="m-4 mt-0 -mb-14 px-2 lg:px-4">
         
         {/* CREATE COMPONENT */}
-        {/* <SearchForm /> */}
+        <SearchForm />
       </section>
 
-      <section className="max-w-7xl mx-auto mt-10 p-6 bg-white rounded-t-lg">
+      <section className="max-w-7xl mx-auto mt-20 p-6 bg-white rounded-t-lg">
         <div className="pt-5">
           <h3 className="text-xl font-bold">
             Trending destinations
