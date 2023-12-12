@@ -13,8 +13,12 @@ import {
 import Link from 'next/link';
 import { Fragment, useState } from 'react';
 
-/*width: calc(100% - 200px - 16px);
-color: #f0f6ff;
+/*
+width: calc(100% - 200px - 16px);
+colors: 
+#f0f6ff
+#006ce4
+#a3d7fc
 */
 
 //: COMPONENTS IMPORTS
@@ -43,7 +47,6 @@ const linksProducts = [
   },
 ];
 
-// #a3d7fc border color for active selected Box
 
 const actionsCall = [
   { name: 'See demo', href: "#", icon: PlayCircleIcon},
