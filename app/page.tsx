@@ -1,4 +1,5 @@
-import GrennLogo from '@/components/GrennLogo';
+import BookingCard from '@/components/BookingCard';
+import GreenLogo from '@/components/GreenLogo';
 import SearchForm from '@/components/SearchForm';
 import { destinations_data } from '@/data/trending';
 
@@ -13,7 +14,7 @@ export default function Home() {
       </section>
 
       <section className="m-4 mt-0 -mb-14 px-2 lg:px-4">
-        
+
         {/* CREATE COMPONENT */}
         <SearchForm />
       </section>
@@ -28,16 +29,15 @@ export default function Home() {
           </p>
         </div>
 
-        <GrennLogo />
-        <div className="flex space-x-4 py-5 overflow-x-scroll">
+        <div className="flex space-x-4 py-5 overflow-x-scroll mb-12">
           {destinations_data.map((item) => (
             <div
-              key={item.id} 
+              key={item.id}
               className="space-y-1 shrink-0 cursor-pointer">
-              <img 
-                src={item.src} 
+              <img
+                src={item.src}
                 className='w-[400px] h-72 object-cover rounded-lg pb-2'
-                alt={item.location} 
+                alt={item.location}
               />
               <p className="font-bold">{item.title}</p>
               <p>{item.location}</p>
@@ -45,7 +45,14 @@ export default function Home() {
             </div>
           ))}
         </div>
+
+        <section className="">
+          <div className="">
+      <BookingCard />
+          </div>
+        </section>
       </section>
+
     </main>
   )
 }
