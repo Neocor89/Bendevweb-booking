@@ -1,3 +1,4 @@
+import GrennLogo from '@/components/GrennLogo';
 import SearchForm from '@/components/SearchForm';
 import { destinations_data } from '@/data/trending';
 
@@ -27,6 +28,7 @@ export default function Home() {
           </p>
         </div>
 
+        <GrennLogo />
         <div className="flex space-x-4 py-5 overflow-x-scroll">
           {destinations_data.map((item) => (
             <div
