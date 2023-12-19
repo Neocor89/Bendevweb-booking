@@ -22,7 +22,7 @@ function BookingCard() {
 
                         {/* STAR AND TEXT CONTAINER */}
                         <div className="flex items-start justify-start gap-0.5 pr-9 max-md:justify-center max-md:pr-5">
-                          <div className="text-blue-800 text-xl font-semibold my-auto">
+                          <div className="text-[#003b95] text-xl font-semibold my-auto">
                             Lens Louvre 2{" "}
                           </div>
                           <Star className="ml-2 aspect-square object-contain object-center w-[18px] fill-[#FFB700] stroke-none overflow-hidden self-center shrink-0 max-w-full my-auto" />
@@ -44,9 +44,9 @@ function BookingCard() {
                           <img
                             loading="lazy"
                             src="https://cdn.builder.io/api/v1/image/assets/TEMP/3323f65b8e2aab8e5875a12552dafaaf287bfea5b0498217c4bb7e3d9e01fc7f?apiKey=025e157bf68948cda4fd41fe85a7679a&"
-                            className="aspect-[2.94] object-contain object-center w-[47px] fill-green-700 overflow-hidden shrink-0 max-w-full"
+                            className="aspect-[2.94] object-contain object-center w-[47px] fill-[#008234] overflow-hidden shrink-0 max-w-full"
                           />
-                          <div className="text-green-700 text-xs grow shrink basis-auto self-start">
+                          <div className="text-[#008234] text-xs grow shrink basis-auto self-start">
                             Niveau 1 Voyage Durabilité
                           </div>
                         </div>  
@@ -67,13 +67,13 @@ function BookingCard() {
                     <div className="text-black text-base font-medium my-auto">
                       Superbe
                     </div>
-                    <div className="text-white text-xs font-medium whitespace-nowrap bg-blue-800 self-stretch aspect-square justify-center items-center h-10 px-3 rounded-md">
+                    <div className="text-white text-xs font-medium whitespace-nowrap bg-[#003b95] self-stretch aspect-square justify-center items-center h-10 px-3 rounded-md">
                       8,5
                     </div>
                   </div>
-                  <div className="text-white text-xs font-medium whitespace-nowrap bg-sky-600 justify-center items-stretch mt-5 px-5 py-3.5 rounded">
+                  <button className="text-white text-xs font-medium whitespace-nowrap bg-[#006CE4] justify-center items-stretch mt-10 py-3.5 rounded">
                     Voir les tarifs
-                  </div>
+                  </button>
                 </div>
               </div>
             </div>
