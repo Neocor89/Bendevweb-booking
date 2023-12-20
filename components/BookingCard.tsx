@@ -1,6 +1,8 @@
 import { Star } from "lucide-react";
 import GreenLogo from "./GreenLogo";
 import * as React from "react";
+import BookLike from "./BookLike";
+import GreenLeaf from "./GreenLeaf";
 
 function BookingCard() {
   return (
@@ -11,11 +13,7 @@ function BookingCard() {
                 <div className="grow max-md:max-w-full max-md:mt-10">
                   <div className="gap-5 flex max-md:flex-col max-md:items-stretch max-md:gap-0">
                     <div className="flex flex-col items-stretch w-[39%] max-md:w-full max-md:ml-0">
-                      <img
-                        loading="lazy"
-                        srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/958caf8049a92255b9582c4f10dbf904ce86569e92fc71daea7b10eea0ae08f3?apiKey=025e157bf68948cda4fd41fe85a7679a&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/958caf8049a92255b9582c4f10dbf904ce86569e92fc71daea7b10eea0ae08f3?apiKey=025e157bf68948cda4fd41fe85a7679a&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/958caf8049a92255b9582c4f10dbf904ce86569e92fc71daea7b10eea0ae08f3?apiKey=025e157bf68948cda4fd41fe85a7679a&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/958caf8049a92255b9582c4f10dbf904ce86569e92fc71daea7b10eea0ae08f3?apiKey=025e157bf68948cda4fd41fe85a7679a&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/958caf8049a92255b9582c4f10dbf904ce86569e92fc71daea7b10eea0ae08f3?apiKey=025e157bf68948cda4fd41fe85a7679a&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/958caf8049a92255b9582c4f10dbf904ce86569e92fc71daea7b10eea0ae08f3?apiKey=025e157bf68948cda4fd41fe85a7679a&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/958caf8049a92255b9582c4f10dbf904ce86569e92fc71daea7b10eea0ae08f3?apiKey=025e157bf68948cda4fd41fe85a7679a&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/958caf8049a92255b9582c4f10dbf904ce86569e92fc71daea7b10eea0ae08f3?apiKey=025e157bf68948cda4fd41fe85a7679a&"
-                        className="aspect-square object-contain object-center w-[200px] overflow-hidden shrink-0 max-w-full max-md:mt-5"
-                      />
+                      
                     </div>
                     <div className="flex flex-col items-stretch w-[61%] max-md:w-full max-md:ml-0">
                       <div className="flex flex-col items-stretch mt-3 max-md:mt-8">
@@ -26,26 +24,14 @@ function BookingCard() {
                             Lens Louvre 2{" "}
                           </div>
                           <Star className="ml-2 aspect-square object-contain object-center w-[18px] fill-[#FFB700] stroke-none overflow-hidden self-center shrink-0 max-w-full my-auto" />
-                          {/* <img
-                            loading="lazy"
-                            src="https://cdn.builder.io/api/v1/image/assets/TEMP/429c820892575f3e417b4959d99247f3b5f9e656283b5fad5e0c9e90c1cfa3fb?apiKey=025e157bf68948cda4fd41fe85a7679a&"
-                            className="aspect-square object-contain object-center w-[11px] fill-[#FFB700] overflow-hidden self-center shrink-0 max-w-full my-auto"
-                          /> */}
+                        
                           <Star className="aspect-square object-contain object-center w-[18px] fill-[#FFB700] stroke-none overflow-hidden self-center shrink-0 max-w-full my-auto" />
                           <Star className="aspect-square object-contain object-center w-[18px] fill-[#FFB700] stroke-none overflow-hidden self-center shrink-0 max-w-full my-auto" />
                           <Star className="mr-2 aspect-square object-contain object-center w-[18px] fill-[#FFB700] stroke-none overflow-hidden self-center shrink-0 max-w-full my-auto" />
-                          <img
-                            loading="lazy"
-                            src="https://cdn.builder.io/api/v1/image/assets/TEMP/cd4116387a4609e6b70025b05db0b89b07a72ac72cb79476f884c44886ae7fc9?apiKey=025e157bf68948cda4fd41fe85a7679a&"
-                            className="aspect-square object-contain object-center w-[18px] fill-[#FFB700] overflow-hidden self-stretch shrink-0 max-w-full"
-                          />
+                          <BookLike />
                         </div>
                         <div className="bg-green-50 flex items-stretch justify-between gap-1 mt-2 px-1 py-px">
-                          <img
-                            loading="lazy"
-                            src="https://cdn.builder.io/api/v1/image/assets/TEMP/3323f65b8e2aab8e5875a12552dafaaf287bfea5b0498217c4bb7e3d9e01fc7f?apiKey=025e157bf68948cda4fd41fe85a7679a&"
-                            className="aspect-[2.94] object-contain object-center w-[47px] fill-[#008234] overflow-hidden shrink-0 max-w-full"
-                          />
+                          <GreenLeaf />
                           <div className="text-[#008234] text-xs grow shrink basis-auto self-start">
                             Niveau 1 Voyage Durabilité
                           </div>
