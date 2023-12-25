@@ -1,7 +1,6 @@
-import type { Metadata } from 'next'
-import './globals.css'
-import Header from '@/components/Header'
-
+import type { Metadata } from 'next';
+import './globals.css';
+import Header from '@/components/Header';
 
 export const metadata: Metadata = {
   title: 'BDWooking',
@@ -21,4 +20,4 @@ export default function RootLayout({
       </body>
     </html>
   )
-}
+};
