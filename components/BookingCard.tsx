@@ -13,7 +13,11 @@ function BookingCard() {
                 <div className="grow max-md:max-w-full max-md:mt-10">
                   <div className="gap-5 flex max-md:flex-col max-md:items-stretch max-md:gap-0">
                     <div className="flex flex-col items-stretch w-[39%] max-md:w-full max-md:ml-0">
-                      
+                      <img
+                        loading="lazy"
+                        srcSet={`https://cdn.builder.io/api/v1/image/assets/TEMP/958caf8049a92255b9582c4f10dbf904ce86569e92fc71daea7b10eea0ae08f3?apiKey=${process.env.API_KEY}&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/958caf8049a92255b9582c4f10dbf904ce86569e92fc71daea7b10eea0ae08f3?apiKey=${process.env.API_KEY}&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/958caf8049a92255b9582c4f10dbf904ce86569e92fc71daea7b10eea0ae08f3?apiKey=${process.env.API_KEY}&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/958caf8049a92255b9582c4f10dbf904ce86569e92fc71daea7b10eea0ae08f3?apiKey=${process.env.API_KEY}&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/958caf8049a92255b9582c4f10dbf904ce86569e92fc71daea7b10eea0ae08f3?apiKey=${process.env.API_KEY}&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/958caf8049a92255b9582c4f10dbf904ce86569e92fc71daea7b10eea0ae08f3?apiKey=${process.env.API_KEY}&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/958caf8049a92255b9582c4f10dbf904ce86569e92fc71daea7b10eea0ae08f3?apiKey=${process.env.API_KEY}&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/958caf8049a92255b9582c4f10dbf904ce86569e92fc71daea7b10eea0ae08f3?apiKey=${process.env.API_KEY}&`}
+                        className="aspect-square object-contain object-center w-[200px] overflow-hidden shrink-0 max-w-full max-md:mt-5"
+                      />
                     </div>
                     <div className="flex flex-col items-stretch w-[61%] max-md:w-full max-md:ml-0">
                       <div className="flex flex-col items-stretch mt-3 max-md:mt-8">
