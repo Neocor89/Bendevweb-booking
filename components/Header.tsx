@@ -81,7 +81,7 @@ function Header() {
 
         <Popover.Group className="hidden lg:flex lg:gap-x-12">
           <Popover className="relative">
-            <Popover.Button className="outline-none border-none flex items-center gap-x-1 text-sm font-['Rubik'] font-normal leading-6 text-white">
+            <Popover.Button className="outline-none border-none flex items-center gap-x-1 text-sm font-rubik font-normal leading-6 text-white">
               Search Stays
               <ChevronDownIcon 
                 className='h-5 w-5 flex-none text-white' aria-hidden="true"
