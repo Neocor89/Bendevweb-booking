@@ -265,7 +265,7 @@ function SearchForm() {
           <div className="mt-auto">
             <Button 
               type="submit" 
-              className="lg:bg-[#a3d7fc] bg-[#ffb700] h-12 w-32 font-rubik font-semibold text-base text-black"
+              className="lg:bg-[#a3d7fc] bg-[#ffb700] h-12 w-32 font-rubik font-semibold text-base text-black hover:bg-[#a3d7fc]"
             >
               Search
             </Button>
