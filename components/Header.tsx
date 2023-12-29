@@ -18,6 +18,7 @@ width: calc(100% - 200px - 16px);
 colors: 
 #f0f6ff
 #006ce4
+#006ce3
 #a3d7fc
 */
 
