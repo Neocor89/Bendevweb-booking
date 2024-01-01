@@ -11,7 +11,7 @@ export const recommanded_data = [
   },
   {
     id: 2,
-    src: "https://cf.bstatic.com/xdata/images/hotel/max300/465882161.webp?k=855f87f255ded7f564bc2585630abd8cf6b6aae534e85b7e0d72a3a1c3bed747&o=",
+    src: "https://cf.bstatic.com/xdata/images/hotel/max300/515479720.webp?k=df83b02b818270438a3a4ba819249fcb1ea21a556200fdedfc318fe19dcd27bc&o=",
     title: "YalaRent Cliff side villa with private heated pool",
     location: "Eilat, Israël",
     badge: 9,
@@ -21,7 +21,7 @@ export const recommanded_data = [
   },
   {
     id: 3,
-    src: "https://cf.bstatic.com/xdata/images/hotel/max300/465882161.webp?k=855f87f255ded7f564bc2585630abd8cf6b6aae534e85b7e0d72a3a1c3bed747&o=",
+    src: "https://cf.bstatic.com/xdata/images/hotel/max300/466495407.webp?k=1c5c23f6f892b8654a60f608abbaeb72c0763d0c4226f172d373058ca0699c9f&o=",
     title: "Cherry Grove Villa Close to Beach w Pool",
     location: "North Myrtle Beach, Myrtle Beach",
     badge: 9.7,
@@ -41,7 +41,7 @@ export const recommanded_data = [
   },
   {
     id: 5,
-    src: "https://cf.bstatic.com/xdata/images/hotel/max300/465882161.webp?k=855f87f255ded7f564bc2585630abd8cf6b6aae534e85b7e0d72a3a1c3bed747&o=",
+    src: "https://cf.bstatic.com/xdata/images/hotel/max300/448559381.webp?k=139c936a0f8c67190fa92fb6ff6507f81d6c78e930ce116b8f533e6760ee2897&o=",
     title: "Crystal Village II 6B - Close to the Beach 2BD 2BA",
     location: "Miramar Beach, Destin",
     badge: 9,
@@ -51,7 +51,7 @@ export const recommanded_data = [
   },
   {
     id: 6,
-    src: "https://cf.bstatic.com/xdata/images/hotel/max300/465882161.webp?k=855f87f255ded7f564bc2585630abd8cf6b6aae534e85b7e0d72a3a1c3bed747&o=",
+    src: "https://cf.bstatic.com/xdata/images/hotel/max300/452136029.webp?k=a084f37b9bc3d093d42754103a4fd061ab71364961cd45c0ee5f4699c39a4288&o=",
     title: "The Little Brick Cottage",
     location: "Murrells Inlet, Myrtle Beach",
     badge: 10,
