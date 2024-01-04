@@ -1,5 +1,5 @@
 import BookingCard from '@/components/BookingCard';
-import GreenLogo from '@/components/GreenLogo';
+import { MediumBookCard } from '@/components/MediumBookCard';
 import SearchForm from '@/components/SearchForm';
 import { destinations_data } from '@/data/trending';
 
@@ -50,6 +50,7 @@ export default function Home() {
           <div className="">
       <BookingCard />
           </div>
+          <MediumBookCard />
         </section>
       </section>
 
