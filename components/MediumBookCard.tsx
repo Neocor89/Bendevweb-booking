@@ -1,0 +1,86 @@
+"use client"
+
+import * as React from "react";
+import Image from "next/image";
+import { recommanded_data } from "@/data/recommended";
+
+export function MediumBookCard() {
+
+return (
+    <div className="flex justify-between space-x-4 py-5 overflow-x-scroll mb-12">
+      {recommanded_data.map((data) => (
+        <div
+          key={data.id} 
+          className="border flex flex-col w-[400px] h-auto rounded-xl border-solid border-neutral-200 mt-10">
+          <Image
+            key={data.id}
+            loading="lazy"
+            src={data.src}
+            alt={data.location}
+            layout="responsive"
+            width={300}
+            height={250}
+            className="h-[100%] min-h-[230px] max-h-0 w-full object-cover overflow-hidden rounded-t-lg"
+          />
+          <div className="justify-between items-stretch bg-white flex w-full h-auto flex-col p-4">
+            <header className="items-stretch bg-white flex flex-col">
+              <h3 className="text-zinc-900 text-base font-bold font-rubik">
+                {data.title}
+              </h3>
+              <p className="text-zinc-900 text-xs mt-1.5">
+                {data.location}
+              </p>
+            </header>
+            <div className="items-stretch content-center flex-wrap bg-white flex gap-2.5 mt-1.5">
+              <button className="text-white text-sm whitespace-nowrap justify-center items-stretch bg-blue-800 aspect-[1.9310344827586208] px-2 py-1.5  rounded-md" aria-label="Rating">
+                {data.badge}
+              </button>
+              <p className="text-zinc-900 text-xs my-auto">{data.badge_text}</p>
+              <p className="text-stone-500 text-xs my-auto">{data.badge_experience}</p>
+            </div>
+            <div className="justify-end items-stretch bg-white flex flex-col mt-1.5">
+              <p className="text-zinc-900 text-xs">
+                {data.description}
+              </p>
+              <a href="#" className="text-sky-600 text-xs underline mt-1.5">
+                Voir plus
+              </a>
+            </div>
+            <button className="text-sky-600 text-sm whitespace-nowrap justify-center items-center border bg-white mt-1.5 px-16 py-2 border-solid border-sky-600" aria-label="Book">
+              Réserver cette villa
+            </button>
+          </div>
+        </div>
+      ))}
+
+    </div>
+  );
+}
+
+
+
+/*
+<Image
+        loading="lazy"
+        src={props.src}
+        alt={props.title}
+        layout="responsive"
+        width={400}
+        height={460}
+        objectFit="contain"
+        className="w-full h-[560px] overflow-hidden rounded-t-lg"
+      />
+      <div className="justify-between items-stretch bg-white flex w-full flex-col p-4">
+        <header className="items-stretch bg-white flex flex-col">
+          <h3 className="text-zinc-900 text-base font-bold font-rubik">
+            {props.title}
+          </h3>
+          <p className="text-zinc-900 text-xs mt-1.5">
+            {props.description}
+          </p>
+        </header>
+        <div className="items-stretch content-center flex-wrap bg-white flex gap-2.5 mt-1.5">
+          <button className="text-white text-sm whitespace-nowrap justify-center items-stretch bg-blue-800 aspect-[1.9310344827586208] px-2 py-1.5 rounded-md" aria-label="Rating">
+            {props.note}
+          </button>
+*/
