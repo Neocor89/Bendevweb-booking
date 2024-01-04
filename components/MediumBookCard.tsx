@@ -32,7 +32,7 @@ return (
               </p>
             </header>
             <div className="items-stretch content-center flex-wrap bg-white flex gap-2.5 mt-1.5">
-              <button className="text-white text-sm whitespace-nowrap justify-center items-stretch bg-blue-800 aspect-[1.9310344827586208] px-2 py-1.5  rounded-md" aria-label="Rating">
+              <button className="text-white text-sm whitespace-nowrap justify-center items-stretch bg-blue-800 aspect-[1.9310344827586208] px-2.5 py-1.5  rounded-md" aria-label="Rating">
                 {data.badge}
               </button>
               <p className="text-zinc-900 text-xs my-auto">{data.badge_text}</p>
