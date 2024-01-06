@@ -50,9 +50,12 @@ export default function Home() {
           <div className="">
       <BookingCard />
           </div>
-          <h3 className="text-xl font-bold pt-5">
+          <h3 className="text-2xl font-bold pt-5">
             Trending Villas
           </h3>
+          <p className="font-rubik">
+            Find the villas most appreciated by our users
+          </p>
           <MediumBookCard />
         </section>
       </section>
