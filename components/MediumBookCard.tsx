@@ -49,7 +49,7 @@ return (
                 Voir plus
               </a>
             </div>
-            <button className="text-[#006ce3] text-sm whitespace-nowrap justify-center items-center border bg-white mt-1.5 px-16 py-2 border-solid border-[#006ce3]" aria-label="Book">
+            <button className="text-[#006ce3] hover:text-[#f0f0f0] text-sm whitespace-nowrap justify-center items-center border bg-white hover:bg-[#003b95] mt-1.5 px-16 py-2 border-solid border-[#006ce3]" aria-label="Book">
               Réserver cette villa
             </button>
           </div>
