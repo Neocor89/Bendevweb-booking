@@ -14,7 +14,7 @@ return (
       {recommanded_data.map((data) => (
         <div
           key={data.id} 
-          className="border flex flex-col w-[400px] h-auto rounded-xl border-solid border-neutral-200 mt-6">
+          className="border flex flex-col w-[400px] h-auto rounded-xl border-solid border-[#e7e7e7] mt-6">
           <Image
             key={data.id}
             loading="lazy"
@@ -35,7 +35,7 @@ return (
               </p>
             </header>
             <div className="items-stretch content-center flex-wrap bg-white flex gap-2.5 mt-1.5">
-              <button className="text-white text-sm whitespace-nowrap justify-center items-stretch bg-blue-800 aspect-[1.9310344827586208] px-2.5 py-1.5  rounded-md" aria-label="Rating">
+              <button className="text-white text-sm whitespace-nowrap justify-center items-stretch bg-[#003b95] aspect-[1.9310344827586208] px-2.5 py-1.5  rounded-md" aria-label="Rating">
                 {data.badge}
               </button>
               <p className="text-zinc-900 text-xs my-auto">{data.badge_text}</p>
@@ -45,11 +45,11 @@ return (
               <p className="text-zinc-900 text-xs">
                 {data.description}
               </p>
-              <a href="#" className="text-sky-600 text-xs underline mt-1.5">
+              <a href="#" className="text-[#006ce3] text-xs underline mt-1.5">
                 Voir plus
               </a>
             </div>
-            <button className="text-sky-600 text-sm whitespace-nowrap justify-center items-center border bg-white mt-1.5 px-16 py-2 border-solid border-sky-600" aria-label="Book">
+            <button className="text-[#006ce3] text-sm whitespace-nowrap justify-center items-center border bg-white mt-1.5 px-16 py-2 border-solid border-[#006ce3]" aria-label="Book">
               Réserver cette villa
             </button>
           </div>
