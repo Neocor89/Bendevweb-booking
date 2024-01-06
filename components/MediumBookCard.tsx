@@ -59,31 +59,3 @@ return (
     </div>
   );
 }
-
-
-
-/*
-<Image
-        loading="lazy"
-        src={props.src}
-        alt={props.title}
-        layout="responsive"
-        width={400}
-        height={460}
-        objectFit="contain"
-        className="w-full h-[560px] overflow-hidden rounded-t-lg"
-      />
-      <div className="justify-between items-stretch bg-white flex w-full flex-col p-4">
-        <header className="items-stretch bg-white flex flex-col">
-          <h3 className="text-zinc-900 text-base font-bold font-rubik">
-            {props.title}
-          </h3>
-          <p className="text-zinc-900 text-xs mt-1.5">
-            {props.description}
-          </p>
-        </header>
-        <div className="items-stretch content-center flex-wrap bg-white flex gap-2.5 mt-1.5">
-          <button className="text-white text-sm whitespace-nowrap justify-center items-stretch bg-blue-800 aspect-[1.9310344827586208] px-2 py-1.5 rounded-md" aria-label="Rating">
-            {props.note}
-          </button>
-*/
