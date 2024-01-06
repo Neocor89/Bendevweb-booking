@@ -14,7 +14,7 @@ return (
       {recommanded_data.map((data) => (
         <div
           key={data.id} 
-          className="border flex flex-col w-[400px] h-auto rounded-xl border-solid border-neutral-200 mt-10">
+          className="border flex flex-col w-[400px] h-auto rounded-xl border-solid border-neutral-200 mt-6">
           <Image
             key={data.id}
             loading="lazy"
