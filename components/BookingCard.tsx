@@ -8,8 +8,8 @@ import Image from "next/image";
 
 function BookingCard() {
   return (
-        <div className="border bg-neutral-100 flex max-w-[812px] flex-col justify-center items-stretch rounded-xl border-solid border-neutral-200">
-          <div className="border bg-white w-full px-5 py-5 rounded-xl border-solid border-neutral-200 max-md:max-w-full">
+        <div className="border bg-neutral-100 flex max-w-[812px] flex-col justify-center items-stretch rounded-xl border-solid border-[#e7e7e7]">
+          <div className="border bg-white w-full px-5 py-5 rounded-xl border-solid border-[#e7e7e7] max-md:max-w-full">
             <div className="gap-5 flex max-md:flex-col max-md:items-stretch max-md:gap-0">
               <div className="flex flex-col items-stretch w-[83%] max-md:w-full max-md:ml-0">
                 <div className="grow max-md:max-w-full max-md:mt-10">
