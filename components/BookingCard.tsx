@@ -4,6 +4,8 @@ import BookLike from "./BookLike";
 import GreenLeaf from "./GreenLeaf";
 import Image from "next/image";
 
+//: CHANGE AND RESTRUCTURE CODE
+
 function BookingCard() {
   return (
         <div className="border bg-neutral-100 flex max-w-[812px] flex-col justify-center items-stretch rounded-xl border-solid border-neutral-200">
