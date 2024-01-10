@@ -46,8 +46,8 @@ export default function Home() {
         </div>
 
         {/* SECTION FOR DISPLAYING INFORMATION */}
-        <section className="">
-          <div className="">
+        <section>
+          <div>
       <BookingCard />
           </div>
           <h3 className="text-2xl font-bold pt-5">
