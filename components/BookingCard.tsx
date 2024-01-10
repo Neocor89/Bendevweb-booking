@@ -27,7 +27,6 @@ function BookingCard() {
                     <div className="flex flex-col items-stretch w-[61%] max-md:w-full max-md:ml-0">
                       <div className="flex flex-col items-stretch mt-3 max-md:mt-8">
 
-                        {/* STAR AND TEXT CONTAINER */}
                         <div className="flex items-start justify-start gap-0.5 pr-9 max-md:justify-center max-md:pr-5">
                           <div className="text-[#003b95] text-xl font-semibold my-auto">
                             Lens Louvre 2{" "}
