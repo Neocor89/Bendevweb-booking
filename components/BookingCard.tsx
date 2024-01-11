@@ -24,7 +24,7 @@ function BookingCard() {
                         className="aspect-square object-contain object-center w-[200px] overflow-hidden shrink-0 max-w-full max-md:mt-5"
                       />
                     </div>
-                    <div className="flex flex-col items-stretch w-[61%] max-md:w-full max-md:ml-0">
+                    <div className="flex flex-col w-[61%] max-md:w-full max-md:ml-0">
                       <div className="flex flex-col items-stretch mt-3 max-md:mt-8">
 
                         <div className="flex items-start justify-start gap-0.5 pr-9 max-md:justify-center max-md:pr-5">
