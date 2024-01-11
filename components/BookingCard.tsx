@@ -61,11 +61,11 @@ function BookingCard() {
                     <div className="text-black text-base font-medium my-auto">
                       Superbe
                     </div>
-                    <div className="text-white text-xs font-medium whitespace-nowrap bg-[#003b95] self-stretch aspect-square justify-center items-center h-10 px-3 rounded-md">
+                    <div className="text-white text-xs font-medium bg-[#003b95] aspect-square justify-center items-center h-10 px-3 rounded-md">
                       8,5
                     </div>
                   </div>
-                  <button className="text-white text-xs font-medium whitespace-nowrap bg-[#006CE4] justify-center items-stretch mt-10 py-3.5 rounded">
+                  <button className="text-white text-xs font-medium bg-[#006CE4] justify-center mt-10 py-3.5 rounded">
                     Voir les tarifs
                   </button>
                 </div>
