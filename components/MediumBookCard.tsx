@@ -15,6 +15,8 @@ return (
           <Image
             key={data.id}
             loading="lazy"
+            //! ****** REMINDER *******
+            //? FINISH TO CHANGE IMAGES
             src={data.src}
             alt={data.location}
             layout="responsive"
