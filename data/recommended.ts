@@ -1,7 +1,7 @@
 export const recommanded_data = [
   {
     id: 1,
-    src: "https://cf.bstatic.com/xdata/images/hotel/max300/465882161.webp?k=855f87f255ded7f564bc2585630abd8cf6b6aae534e85b7e0d72a3a1c3bed747&o=",
+    src: "https://media.istockphoto.com/id/1328906788/fr/photo/myrtle-beach-boardwalk-caroline-du-sud.webp?b=1&s=170667a&w=0&k=20&c=lC1rugRkHNmm11KW77iLOQxvXA_gcbYSOu_MZCNVUzk=",
     title: "Cherry Grove Villa Close to Beach w Pool",
     location: "North Myrtle Beach, Myrtle Beach",
     badge: 10,
@@ -11,7 +11,7 @@ export const recommanded_data = [
   },
   {
     id: 2,
-    src: "https://cf.bstatic.com/xdata/images/hotel/max300/515479720.webp?k=df83b02b818270438a3a4ba819249fcb1ea21a556200fdedfc318fe19dcd27bc&o=",
+    src: "https://media.istockphoto.com/id/628660778/fr/photo/t%C3%B4t-le-matin-lever-du-soleil-sur-la-mer.webp?b=1&s=170667a&w=0&k=20&c=z82oAXbNARJ7BtCoHAWfvOpdsIBQiZm51Do_aMMxVHw=",
     title: "YalaRent Cliff side villa with private heated pool",
     location: "Eilat, Israël",
     badge: 9,
@@ -21,7 +21,7 @@ export const recommanded_data = [
   },
   {
     id: 3,
-    src: "https://cf.bstatic.com/xdata/images/hotel/square600/475712334.webp?k=6e67d82393b61ea641e5f299accbbfd07971ceec8c6d226c4542e3e8033f7086&o=",
+    src: "https://media.istockphoto.com/id/1321598038/fr/photo/villa-de-vacances-de-luxe-moderne-au-bord-de-la-mer.webp?b=1&s=170667a&w=0&k=20&c=LtEhjIfjl7jOKVA3CJ5nDtMc0mIu6fGxmQHOEHt8VnE=",
     title: "Cherry Grove Villa Close to Beach w Pool",
     location: "North Myrtle Beach, Myrtle Beach",
     badge: 9.7,
@@ -51,7 +51,7 @@ export const recommanded_data = [
   },
   {
     id: 6,
-    src: "https://cf.bstatic.com/xdata/images/hotel/max300/452136029.webp?k=a084f37b9bc3d093d42754103a4fd061ab71364961cd45c0ee5f4699c39a4288&o=",
+    src: "https://media.istockphoto.com/id/1213840216/fr/photo/voyage-de-luxe-couple-romantique-dans-lh%C3%B4tel-de-plage.webp?b=1&s=170667a&w=0&k=20&c=v3fr_JxrqKNKUOyF-uBicS-Zfd1x2FHv7COT9FOKzcY=",
     title: "The Little Brick Cottage Waterfront In the Heart of MDR",
     location: "Murrells Inlet, Myrtle Beach",
     badge: 10,
