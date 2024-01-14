@@ -6,6 +6,9 @@ import { recommanded_data } from "@/data/recommended";
 
 export function MediumBookCard() {
 
+  // TODO
+  //: REPLACE REST OF IMAGES FOR FIXED THE ISSUE
+
 return (
     <div className="flex justify-between space-x-4 py-5 overflow-x-scroll mb-12">
       {recommanded_data.map((data) => (
@@ -15,8 +18,6 @@ return (
           <Image
             key={data.id}
             loading="lazy"
-            //! ****** REMINDER *******
-            //? FINISH TO CHANGE IMAGES
             src={data.src}
             alt={data.location}
             layout="responsive"
