@@ -4,7 +4,6 @@ import BookLike from "./BookLike";
 import GreenLeaf from "./GreenLeaf";
 import Image from "next/image";
 
-//: CHANGE AND RESTRUCTURE CODE
 
 function BookingCard() {
   return (
