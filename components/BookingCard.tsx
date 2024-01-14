@@ -6,6 +6,10 @@ import Image from "next/image";
 
 
 function BookingCard() {
+
+  // TODO
+  //: RE ADD OFFICIAL COLORS AND DETAILS
+
   return (
     <div className="border bg-white max-w-[700px] p-4 rounded-xl border-solid border-neutral-200">
       <header className="gap-5 flex max-md:flex-col max-md:items-stretch max-md:gap-0">
