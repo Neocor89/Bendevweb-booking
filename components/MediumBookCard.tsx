@@ -20,7 +20,6 @@ return (
             loading="lazy"
             src={data.src}
             alt={data.location}
-            layout="responsive"
             width={300}
             height={250}
             className="h-[100%] min-h-[230px] max-h-0 w-full object-cover overflow-hidden rounded-t-lg"
