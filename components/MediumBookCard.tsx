@@ -26,7 +26,7 @@ return (
           />
           <div className="justify-between items-stretch bg-white flex w-full h-auto flex-col p-4">
             <header className="items-stretch bg-white flex flex-col">
-              <h3 className="text-zinc-900 text-base font-bold font-rubik hover:text-[#d67501]">
+              <h3 className="text-zinc-900 text-base font-bold font-rubik hover:text-[#d67501] hover:cursor-pointer">
                 {data.title}
               </h3>
               <p className="text-zinc-900 text-xs mt-1.5">
