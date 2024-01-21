@@ -8,7 +8,7 @@ import Image from "next/image";
 function BookingCard() {
 
   // TODO
-  //: RE ADD OFFICIAL COLORS AND DETAILS
+  //: RE ADD DYNAMIC CONTENTS IN COMPONENT
 
   return (
     <div className="border bg-white max-w-[700px] p-4 rounded-xl border-solid border-[#e7e7e7]">
