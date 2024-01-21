@@ -45,7 +45,6 @@ export default function Home() {
           ))}
         </div>
 
-        {/* SECTION FOR DISPLAYING INFORMATION */}
         <section>
           <div>
       <BookingCard />
