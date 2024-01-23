@@ -26,7 +26,9 @@ function BookingCard() {
             <div className="justify-between self-stretch flex gap-0 items-start max-md:max-w-full max-md:flex-wrap">
               <a href="#" className="items-stretch content-end flex-wrap flex gap-2.5 pr-20 max-md:pr-5" aria-label="Hôtel Cerise à Lens">
                 <div className="justify-center text-[#003b95] text-lg font-semibold grow whitespace-nowrap self-start">
+                <h1>
                   Hôtel Cerise à Lens
+                  </h1>
                 </div>
                 <div className="items-stretch flex gap-0.5 mt-3 self-start">
                 <Star className="aspect-square object-contain object-center w-[18px] fill-[#FFB700] stroke-none overflow-hidden self-center shrink-0 max-w-full my-auto" />
