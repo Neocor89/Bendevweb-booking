@@ -62,7 +62,3 @@ function BookingCard() {
 }
 
 export default BookingCard;
-
-/*
-<img loading="lazy" src=`https://cdn.builder.io/api/v1/image/assets/TEMP/83868f8b4335b8d4eaf68888c2876523c27600cb41ce8a94714438380d8eee90?apiKey={process.env.API_KEY}&` className="aspect-square object-contain object-center w-2.5 fill-yellow-500 overflow-hidden shrink-0 max-w-full" aria-role="image" />
-*/
