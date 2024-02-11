@@ -5,7 +5,8 @@ import Image from "next/image";
 import { recommanded_data } from "@/data/recommended";
 import Link from "next/link";
 
-export function MediumBookCard() {
+
+export function MediumBookCard () {
 
 return (
     <div className="flex justify-between space-x-4 py-5 overflow-x-scroll mb-12">
@@ -46,7 +47,7 @@ return (
                 Voir plus
               </a>
             </div>  
-            <Link href={`/villas/${data.id}`}>
+            <Link href={`villas/${data.id}`}>
               <button className="text-[#006ce3] hover:text-[#f0f0f0] text-sm whitespace-nowrap justify-center items-center border bg-white hover:bg-[#003b95] mt-1.5 px-16 py-2 border-solid border-[#006ce3]" aria-label="Book">
                 Réserver cette villa
               </button>
