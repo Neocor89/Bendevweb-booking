@@ -6,7 +6,7 @@ import { recommanded_data } from "@/data/recommended";
 import Link from "next/link";
 
 
-export function MediumBookCard () {
+export function MediumBookCard ({id, title, description, src, location}: any) {
 
 return (
     <div className="flex justify-between space-x-4 py-5 overflow-x-scroll mb-12">
