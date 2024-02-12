@@ -29,9 +29,9 @@ import { cn } from '@/lib/utils';
 
 const linksProducts = [
   {
-    name: 'Find your Home',
+    name: 'Find your Villa',
     description: 'Find the place of your dreams',
-    href: "#",
+    href: "/villas",
     icon: HomeIcon,
   },
   {
