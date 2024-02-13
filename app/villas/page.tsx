@@ -1,21 +1,24 @@
-import { recommanded_data } from "@/data/recommended";
-import { useRouter } from "next/router";
+import { useRouter } from 'next/router';
+import { recommanded_data } from '@/data/recommended';
 
 
-export default function VillaDetails() {
+export default function VillaDetails () {
   const router = useRouter();
-  const { id } = router.query; // Récupère l'identifiant de la villa depuis les paramètres d'URL
+  const { villaId } = router.query;
+  
+  
+  const selectedVilla = recommanded_data.find((data) => data.id === Number(villaId));
+  console.log(selectedVilla);
 
-  const villas = recommanded_data.find((villa) => villa.id === Number(id));
-
-  // Utilisez l'identifiant pour récupérer les détails de la villa depuis votre source de données (par exemple, une API ou une base de données)
-  // Affichez les détails de la villa ici
+  if (!selectedVilla) {
+    return <div>Villa introuvable.</div>;
+  }
 
   return (
     <div>
-      {/* <h1>Détails de la villa {id}</h1> */}
-      <p>Titre : {villas?.description}</p>
-      {/* Affichez les autres informations de la villa ici */}
+      <h1>{selectedVilla.badge_text}</h1>
+      <img src={selectedVilla.src} alt={selectedVilla.title} />
+      {/* Affichez d'autres détails de la villa ici */}
     </div>
   );
 }
